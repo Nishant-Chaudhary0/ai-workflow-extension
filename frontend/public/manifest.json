@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "AI Workflow Assistant",
+  "version": "1.0",
+  "description": "AI assistant inside browser",
+
+  "permissions": ["storage","sidePanel"],
+  "host_permissions": ["http://localhost:3000/*"],
+
+  "action": {
+    "default_title": "Open AI Assistant"
+  },
+
+  "background": {
+    "service_worker": "background/serviceWorker.js",
+    "type": "module"
+  },
+
+  "side_panel": {
+    "default_path": "index.html"
+  }
+}
