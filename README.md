@@ -71,7 +71,7 @@ Project Structure
 frontend/ src/ background/ sidepanel/ components/ hooks/ store/ public/
 dist/
 
-backend/ server.js .env
+backend/ index.js .env
 
 ------------------------------------------------------------------------
 
